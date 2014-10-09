@@ -31,7 +31,7 @@ module BlogFood
     configure do
       set :database, lambda {
         ENV['DATABASE_URL'] ||
-           "sqlite3:/"
+           "sqlite:/"
 #          "postgres://localhost:5432/bfood_#{environment}"
       }
     end
