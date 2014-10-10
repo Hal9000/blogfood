@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
-ruby '2.1.0'
+ruby '2.0.0'
 
-gem 'sinatra', require: 'sinatra/base'
+gem 'sinatra' # , require: 'sinatra/base'
 gem 'sinatra-contrib', github: 'maccman/sinatra-contrib'
 gem 'rack-standards'
 gem 'unicorn'
